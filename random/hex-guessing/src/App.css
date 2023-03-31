@@ -1,0 +1,36 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.guess-me{
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 15px;
+}
+
+button{
+  padding: 8px;
+  font-size: 18px;
+}
+
+button + button {
+   margin-left: 5px;
+}
+
+.wrong{
+  margin: 10px auto;
+  color: red;
+  font-size: 22px;
+  text-align: center;
+}
+
+.correct{
+  margin: 10px auto;
+  color: green;
+  font-size: 22px;
+  text-align: center;
+}
